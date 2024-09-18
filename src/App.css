@@ -1,0 +1,78 @@
+/* src/App.css */
+
+.body {
+  background-image: url('https://www.pexels.com/photo/silhouette-of-mountain-under-the-moon-covered-with-clouds-4100130/'); /* Random weather image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  color: #ffcc00;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #ff9900;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.weather-card h2 {
+  margin: 0;
+  color: #007BFF;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.error {
+  color: #ff3333;
+}
